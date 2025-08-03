@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+* {
+    margin: 0;
+}
+
 body {
     font-family: "Open Sans";
 }
@@ -17,20 +21,35 @@ body {
     color: white;
     padding: 18px 35px;
     border-radius: 5px;
-  
+
 }
 
-header{
-    background-image: url('../assest/images/developer.png'),url('../assest/images/header_bg.png');
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    line-height: 32px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+header {
+    background-image: url('../assest/images/developer.png'), url('../assest/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+
 /* nav style */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 220px;
+    margin: 25px 220px;
 
 }
 
@@ -58,29 +77,69 @@ nav ul li a {
 }
 
 /* banner style */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.banner-content{
-   max-width: 580px;
-   margin: 0px 220px;
+
+.banner-content {
+    max-width: 580px;
+    margin: 0px 220px;
 }
-.banner-subtitle{
+
+.banner-subtitle {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
 }
-.banner-title{
+
+.banner-title {
     font-size: 60px;
     font-weight: bold;
 }
-.banner-content p{
+
+.banner-content p {
     font-size: 19px;
     line-height: 35px;
     color: #474747;
 }
-.banner-profile-img{
+
+.banner-profile-img {
     width: 580px;
+}
+
+.about {
+    width: 1140px;
+    height: 550px;
+    margin: 130px auto;
+    background-color: #FFF8F3;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px;
+
+}
+
+.about-container {
+    text-align: center;
+    margin: 30px 80px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 20px;
+    text-align: left;
+    
+}
+.about-items .about-description{
+  
+font-weight: bold;
 }
