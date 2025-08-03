@@ -198,3 +198,18 @@ nav ul li a {
     padding: 30px;
     border-radius: 15px;
 }
+.resume{
+    max-width: 1440px;
+    margin:120px auto;
+    text-align: center;
+    
+}
+.resume .resume-container{
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    padding: 20px 0;
+}
+.resume-column .resume-column-title{
+    
+}
